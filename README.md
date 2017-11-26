@@ -1,5 +1,9 @@
 # ESLint Config, Will Robinson!
 
+<p align="center">
+  <img alt="Robot spazzing out" src="robot.gif" />
+</p>
+
 THIS CONFIGURATION HAS BEEN FORMULATED FOR THE EXPRESS PURPOSE OF AVERTING
 ERRORS IN YOUR CODE.
 
