@@ -22,16 +22,17 @@ EXTEND IN `.eslintrc`:
 }
 ```
 
-NODE FLAVORS; `node` FOR TRADITIONAL COMMONJS, AND `node-esm` FOR ES MODULES:
+IT IS ADVISABLE THAT MR. Will Robinson ASSUME NOTHING ABOUT HIS ENVIRONMENT.
+THEREFORE, `{"extends": "will-robinson"}` IS ENVIRONMENT-AGNOSTIC.
 
-```json
-{
-  "extends": "will-robinson/node"
-}
-```
+FOR ENVIRONMENT-AGNOSTIC ES MODULES, HE SHOULD USE `{"extends": "will-robinson/esm"}`.
 
-```json
-{
-  "extends": "will-robinson/node-esm"
-}
-```
+## Environments!
+
+NEVER THE LESS, ENVIRONMENTS BEAR SIGNIFICANCE.  MR. Will Robinson SHOULD
+IDENTIFY HIS:
+
+- Node.js with traditional CommonJS: `{"extends": "will-robinson/node"}`
+- Node.js with ES modules: `{"extends": "will-robinson/node-esm"}`
+- Browsers with scripts: `{"extends": "will-robinson/browser"}`
+- Browsers with ES modules: `{"extends": "will-robinson/browser-esm"}`
