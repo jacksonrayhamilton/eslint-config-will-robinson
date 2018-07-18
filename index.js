@@ -76,9 +76,6 @@ module.exports = {
     'no-unused-vars': ['error'],
     'no-use-before-define': ['error', {'functions': false}],
 
-    // Stylistic Issues
-    'semi': ['error'],
-
     // ECMAScript 6
     'no-const-assign': ['error'],
     'no-dupe-class-members': ['error'],
