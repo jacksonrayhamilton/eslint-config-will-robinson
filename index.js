@@ -77,7 +77,6 @@ module.exports = {
     'no-use-before-define': ['error', {'functions': false}],
 
     // Stylistic Issues
-    'max-statements-per-line': ['error'],
     'semi': ['error'],
 
     // ECMAScript 6
