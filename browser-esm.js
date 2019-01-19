@@ -1,5 +1,5 @@
-'use strict';
+'use strict'
 
 module.exports = {
-  extends: ['./browser.js', './esm.js'],
-};
+  extends: ['./browser.js', './esm.js']
+}

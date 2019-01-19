@@ -1,12 +1,12 @@
-'use strict';
+'use strict'
 
 module.exports = {
   extends: './index.js',
   env: {
     es6: true,
-    node: true,
+    node: true
   },
   parserOptions: {
-    ecmaVersion: 2017,
-  },
-};
+    ecmaVersion: 2017
+  }
+}

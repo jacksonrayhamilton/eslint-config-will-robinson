@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 module.exports = {
   rules: {
@@ -79,6 +79,6 @@ module.exports = {
     // ECMAScript 6
     'no-const-assign': ['warn'],
     'no-dupe-class-members': ['warn'],
-    'require-yield': ['warn'],
-  },
-};
+    'require-yield': ['warn']
+  }
+}
