@@ -4,6 +4,7 @@ module.exports = {
   rules: {
     // Possible Errors
     'for-direction': ['warn'],
+    'no-async-promise-executor': ['warn'],
     'no-compare-neg-zero': ['warn'],
     'no-cond-assign': ['warn', 'always'],
     'no-console': ['warn'],
@@ -17,6 +18,7 @@ module.exports = {
     'no-inner-declarations': ['warn'],
     'no-invalid-regexp': ['warn'],
     'no-irregular-whitespace': ['warn'],
+    'no-misleading-character-class': ['warn'],
     'no-obj-calls': ['warn'],
     'no-prototype-builtins': ['warn'],
     'no-regex-spaces': ['warn'],
@@ -25,6 +27,7 @@ module.exports = {
     'no-unreachable': ['warn'],
     'no-unsafe-finally': ['warn'],
     'no-unsafe-negation': ['warn'],
+    'require-atomic-updates': ['warn'],
     'use-isnan': ['warn'],
     'valid-typeof': ['warn'],
 
