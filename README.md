@@ -2,19 +2,35 @@
 
 <img alt="Robot spazzing out" src="robot.gif" />
 
-THIS CONFIGURATION HAS BEEN FORMULATED FOR THE EXPRESS PURPOSE OF AVERTING
-ERRORS IN YOUR CODE.
+Mr. Will Robinson, THIS CONFIGURATION HAS BEEN FORMULATED FOR THE EXCLUSIVE
+PURPOSE OF AVERTING LOGICAL ERRORS IN YOUR CODE, TO THE GREATEST EXTENT
+POSSIBLE.
 
-IT WILL NOT COMPLAIN ABOUT YOUR ARBITRARY STYLISTIC DECISIONS, UNLESS THEY POSE
-A THREAT TO “THE MISSION.”
+THIS CONFIGURATION WILL NOT COMPLAIN ABOUT YOUR ARBITRARY STYLISTIC DECISIONS.
+YOU MAY PUT WHATEVER WHITESPACE YOU WANT, WHEREVER YOU WANT.  YOU MAY OMIT
+BRACES AROUND `if`, AND EVEN OMIT SEMICOLONS, TOO… IF YOU WISH.  THE
+CONFIGURATION WILL SEE THE MISSION THROUGH.
 
-STAY VIGILANT Will Robinson.
+STAY VIGILANT, Mr. Will Robinson!  ADOPT THIS SUPERIOR ESLint CONFIGURATION,
+IMMEDIATELY!
 
-## Usage!
+## Usage
 
-INSTALL: `npm i -D eslint eslint-config-will-robinson`
+Install globally (e.g. for editors):
 
-EXTEND IN `.eslintrc`:
+```
+yarn global add eslint-config-will-robinson
+npm i -g eslint-config-will-robinson
+```
+
+Install in a project:
+
+```
+yarn add -D eslint eslint-config-will-robinson
+npm i -D eslint eslint-config-will-robinson
+```
+
+Create an `.eslintrc` file in your project and extend the configuration:
 
 ```json
 {
@@ -22,17 +38,24 @@ EXTEND IN `.eslintrc`:
 }
 ```
 
-IT IS ADVISABLE THAT MR. Will Robinson ASSUME NOTHING ABOUT HIS ENVIRONMENT.
-THEREFORE, `{"extends": "will-robinson"}` IS ENVIRONMENT-AGNOSTIC.
+Lint your project using [the relevant plugin for your
+editor](https://eslint.org/docs/user-guide/integrations), or with [the ESLint
+CLI](https://eslint.org/docs/user-guide/command-line-interface).
 
-FOR ENVIRONMENT-AGNOSTIC ES MODULES, HE SHOULD USE `{"extends": "will-robinson/esm"}`.
+## Environments
 
-## Environments!
+`"extends": "will-robinson"` assumes nothing about the environment in which the
+code will run.  This may be useful for writing “isomorphic” code (code that runs
+in both Node.js and web browsers).
 
-NEVER THE LESS, ENVIRONMENTS BEAR SIGNIFICANCE.  MR. Will Robinson SHOULD
-IDENTIFY HIS:
+For the ubiquitous cases in which interaction with the host environment is
+necessary (e.g. for use of Node’s `process` or the DOM’s `document` globals),
+this configuration offers alternate flavors for common environments.  These
+flavors can be used instead by way of the following alternate `.eslintrc` file
+contents:
 
+- Environment-agnostic, but with ES modules: `{"extends": "will-robinson/esm"}`
 - Node.js with traditional CommonJS: `{"extends": "will-robinson/node"}`
 - Node.js with ES modules: `{"extends": "will-robinson/node-esm"}`
-- Browsers with scripts: `{"extends": "will-robinson/browser"}`
+- Browsers with traditional scripts: `{"extends": "will-robinson/browser"}`
 - Browsers with ES modules: `{"extends": "will-robinson/browser-esm"}`
