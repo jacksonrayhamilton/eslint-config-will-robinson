@@ -59,3 +59,36 @@ contents:
 - Node.js with ES modules: `{"extends": "will-robinson/node-esm"}`
 - Browsers with traditional scripts: `{"extends": "will-robinson/browser"}`
 - Browsers with ES modules: `{"extends": "will-robinson/browser-esm"}`
+
+## Syntax Extensions
+
+Support for parsing JSX syntax, and checks for common blunders when writing JSX
+with Facebook’s “React” library, are also available.
+
+Since JSX and React can be used in both browser and server environments (and,
+therefore, also isomorphic contexts), the JSX configuration provided by this
+plugin is designed to be applied in addition to its other configurations.
+
+For instance, to enable JSX+React checks when writing code for a browser
+(perhaps the most common case), you could do:
+
+```json
+{
+  "extends": [
+    "will-robinson/browser-esm",
+    "will-robinson/react-jsx"
+  ]
+}
+```
+
+Or, if writing JSX+React that executes on servers in addition to browsers, you
+could use the following setup, which supports isomorphism:
+
+```json
+{
+  "extends": [
+    "will-robinson",
+    "will-robinson/react-jsx"
+  ]
+}
+```
