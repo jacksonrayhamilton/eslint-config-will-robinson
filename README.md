@@ -16,13 +16,6 @@ IMMEDIATELY!
 
 ## Usage
 
-Install globally (e.g. for editors):
-
-```
-yarn global add eslint-config-will-robinson
-npm i -g eslint-config-will-robinson
-```
-
 Install in a project:
 
 ```
