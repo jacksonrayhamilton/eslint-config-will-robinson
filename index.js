@@ -30,7 +30,6 @@ module.exports = {
     'no-unreachable': ['warn'],
     'no-unsafe-finally': ['warn'],
     'no-unsafe-negation': ['warn', {'enforceForOrderingRelations': true}],
-    'require-atomic-updates': ['warn'],
     'use-isnan': ['warn'],
     'valid-typeof': ['warn'],
 
