@@ -55,7 +55,7 @@ module.exports = {
     'no-octal': ['warn'],
     'no-octal-escape': ['warn'],
     'no-proto': ['warn'],
-    'no-redeclare': ['warn', {'builtinGlobals': true}],
+    'no-redeclare': ['warn'],
     'no-return-assign': ['warn', 'always'],
     'no-script-url': ['warn'],
     'no-self-assign': ['warn'],
